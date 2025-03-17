@@ -1,9 +1,10 @@
 # Market-Risk-Modeling
 A comprehensive Python library for calculating and simulating Value at Risk (VaR) and other financial risk metrics using various methodologies.
-Overview
+
+Overview:
 This toolkit provides robust implementations of financial risk calculations with a focus on market risk metrics, particularly Value at Risk (VaR). It offers multiple VaR calculation methodologies including historical simulation, exponentially weighted moving average (EWMA), Monte Carlo simulation, and stress testing with PCA and copula models.
 
-Features
+Features:
 
 Multiple VaR calculation methods:
 
@@ -32,7 +33,7 @@ Beta calculation
 Sharpe ratio  
 
 
-Components
+Components:
 The toolkit consists of three main modules:
 
 VaRCalculator: Main class for computing different VaR measures with configurable parameters like confidence level and decay factor.  
@@ -40,7 +41,7 @@ StressScenario: Advanced stress scenario generator using PCA for factor selectio
 SimpleCalculator: Utility class providing common financial calculations like volatility, beta, and Sharpe ratio.
 
 
-Future Enhancements
+Future Enhancements:
 
 Add support for fat-tailed distributions in stress scenarios  
 Implement backtesting functionality  
